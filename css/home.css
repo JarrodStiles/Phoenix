@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ADDED THIS BACK INTO style.css 06-01-2010 */
+
+/* Billboard Area
+*******************************************************/
+.homeBanner {
+	background:url(../images/billboard_home_970x368.jpg) no-repeat;
+	/*float: left;*/
+	height: 368px;
+	margin: 0;
+	position:relative;
+	width: 970px;
+}
+.homeBanner h2, .homeBanner p, .homeBanner p a{
+	display:block;
+	font-size:1px;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	text-indent:-9999px;
+}
+.homeBanner p a.btn_signupHome{
+	background:url(../images/btn_signUpToday_186x44.png) no-repeat;
+	cursor:pointer;
+	height:44px;
+	left:588px;
+	position:absolute;
+	top:236px;
+	width:186px;
+}
+.homeBanner p a.btn_videoTourHome{
+	background:url(../images/btn_videoSiteTour_119x21.png) no-repeat;
+	cursor:pointer;
+	height:21px;
+	left:612px;
+	position:absolute;
+	top:291px;
+	width:119px;
+}
+/* Lower Home Body Content Area
+*******************************************************/
+.innerb{
+	background:url(../images/bg_home_inner_content.gif) repeat-y;
+	padding:0 20px 0;
+	margin:25px 0;
+}
+.innerContent{
+	padding:20px;
+}
+.home_success .innerContent{
+	padding-left:45px;
+	background:url(../images/lg_quotations_26x22.png) no-repeat 10px 55px;
+}
+.home_news, .home_success, .home_announcements{
+	float:left;
+}
+.home_news{
+	width:300px;
+}
+.home_success{
+	/*border-left:dotted 1px #cbcbcb;
+	border-right:dotted 1px #cbcbcb;*/
+	font-size:14px;
+	line-height:20px;
+	margin:0 20px;
+	width:290px;
+}
+.home_success a{
+	display:block;
+	font-size:12px;
+	padding-right:10px;
+	text-align:right;
+}
+.home_announcements{
+	width:280px;
+	margin:0 0 0 20px;
+}
+.home_announcements ul li{
+	font-size:14px;
+	line-height:20px;
+	padding-bottom:20px;
+}
+.home_news h3, .home_success h3, .home_announcements h3{
+	color:#00aeb0;
+	font-size:23px;
+	padding-bottom:20px;
+}
+.home_news h3{
+	padding:20px;
+}
+.quote{
+	color:#9fa513;
+	font-size:18px;
+	line-height:24px;
+	padding-bottom:20px;
+}
+
+.signature{
+	color:#2b2b2b;
+	font-size:30px;
+	font-weight:900;
+	margin:10px 0;
+	padding-right:10px;
+	text-align:right;
+}
+
+/* Page Flip Area
+*******************************************************/
+/* styles.css line 3492 */
+#pageflip{
+	right:5px;
+	top:5px;
+	z-index:999;
+}

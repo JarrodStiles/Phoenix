@@ -1,0 +1,114 @@
+/* Main Divs for Builder           06/02/2010 Ken
+**********************************************************************/
+#builder{
+	margin:0 auto;
+	position:relative;
+	/*width:980px;*/
+}
+#containerMainBuilder.wrapper{
+	background:none;
+	background-image:none;
+	/*background:url(../images/bg_builderFooter.png) no-repeat center bottom;*/
+	float:none;
+	padding-bottom:33px;
+	width:981px;
+}
+
+#containerBuilder{
+	background:url(../images/bg_builderStripes.png) repeat-y;
+	width:981px;
+	float:left; /*added to allow builder body expansion  - JS*/
+}
+.innerContentBuilder{
+	background:url(../images/bg_builderFade.png) no-repeat;
+/* Commented out to allow content centering - JS 
+	width:929px;
+	padding:20px;
+*/
+	margin:0 auto;
+}
+/* Nav Tabs for Builder
+**********************************************************************/
+#navBuilder{
+	list-style:none;
+	background:url(../images/navTabsBuilder.png) no-repeat 0 -405px;
+	height:45px;
+	margin-top:55px;
+	position:relative;
+	width:981px;
+}
+#navBuilder li{
+	background:none;
+	display:inline;
+	float:none;
+	position:static;
+}
+#navBuilder li a{
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:1px;
+	height:45px;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	text-indent:-9999px;
+	width:108px;
+}
+#navBuilder li a.selected{
+	/*z-index:99;*/
+}
+#navBuilder li#tab_jobsearch, #navBuilder li#tab_jobsearch a{
+	width:111px;
+}
+#navBuilder li#tab_help,#navBuilder li#tab_help a{
+	width:113px;
+}
+#navBuilder li#tab_jobsearch.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat 0 -360px;
+}
+#navBuilder li#tab_resumes.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -112px -315px;
+}
+#navBuilder li#tab_letters.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -219px -270px;
+}
+#navBuilder li#tab_interviews.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -327px -225px;
+}
+/*#navBuilder li#tab_networking.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -435px -180px;
+}*/
+#navBuilder li#tab_resources.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -435px -180px;
+}
+#navBuilder li#tab_blog.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -543px -135px;
+}
+#navBuilder li#tab_account.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -651px -90px;
+}
+#navBuilder li#tab_help.ui-tabs-selected a{
+	background:url(../images/navTabsBuilder.png) no-repeat -759px -45px;
+	/*background:url(../images/navTabsBuilder.png) no-repeat -867px 0px;*/
+}
+
+#builder div#memberTabs.ui-tabs {
+    padding: 0;
+    zoom: 1;
+}
+#builder a.videoTour{ /* post login tab */
+	background:url(../images/btn_videoSiteTour_tab_30x136.png) no-repeat;
+	font-size:1px;
+	display:block;
+	float:none;
+	height:136px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:0;
+	text-indent:-9999px;
+	top:135px;
+	width:30px;
+	z-index:999;
+}

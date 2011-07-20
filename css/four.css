@@ -1,0 +1,86 @@
+/* Color Hex Values
+**************************************************************************
+
+Orange				#ff9a00
+Teal				#00aeb0 
+Green Dark			#9fa513
+Green Light			#bcbd4d
+Green Super Light	#e6e8c2
+Gray Medium			#6d6d6d
+Gray Light			#969696
+Gray Dark			#626262
+
+**************************************************************************/
+body#four04 .wrapper, body#four04 .footer{
+	background-image:none;
+}
+body#four04 .footer{
+	background:url(../images/error_404_btm_981x41.png) no-repeat top left;
+	padding:61px 0 0;
+	margin:0;
+}
+/* Top header elements
+***************************************************************************/
+body#four04 #topArea{
+	background:url(../images/error_404_top_981x86.png) no-repeat bottom;
+	height:140px;
+	position:relative;
+	width:981px;
+}
+body#four04 h1{
+}
+body#four04 h1.logo_h1 a{
+	background-image:none;
+	display:block;
+	font-size:1px;
+	height:66px;
+	left:60px;
+	position:absolute;
+	text-indent:-9999px;
+	top:72px;
+	width:215px;
+}
+/* Mid area elements
+***************************************************************************/
+body#four04 #container_main{
+	background:url(../images/error_404_mid_981x10.png) repeat-y;
+	margin-top:0;
+	position:relative;
+	width:981px;
+}
+.container_main_inner{
+	padding:0 43px 0 41px;
+}
+#error_message{	
+	background:url(../images/error_404_bg_message_898x461.png) no-repeat;
+	height:421px;
+	padding:60px 40px 0 485px;
+	width:373px;
+}
+#error_message p{
+	font-size:14px;
+	line-height:22px;
+	padding:0 0 20px;
+}
+#error_message p strong{
+	color:#bcbd4d;
+}
+#error_message ul{
+	float:left;
+	width:172px;
+	border-top:1px dotted #bcbcbc;
+}
+#error_message ul li{
+	border-bottom:1px dotted #bcbcbc;
+	font-size:12px;
+	font-weight:700;
+	padding:10px 0 10px 40px;
+	text-transform:uppercase;
+}
+#error_message ul li a{
+	cursor:pointer;
+}
+#error_message ul li a:link{
+	color:#969696;
+}
+

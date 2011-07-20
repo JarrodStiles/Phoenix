@@ -1,0 +1,649 @@
+/* Color Hex Values
+**************************************************************************
+
+Orange				#ff9a00
+Teal				#00aeb0 
+Green Dark			#9fa513
+Green Light			#bcbd4d
+Green Super Light	#e6e8c2
+Gray Medium			#6d6d6d
+Gray Light			#969696
+Gray Dark			#626262
+
+**************************************************************************/
+
+body#signup_single .wrapper, body#signup_single .footer{
+	background-image:none;
+}
+body#signup_single .footer{
+	padding:0;
+}
+sup,
+sub {
+	font-size:.5em;
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+}
+
+sup {
+	bottom: 1.5ex;
+}
+
+sub {
+	top: 1.5ex;
+}
+/* Top header elements
+***************************************************************************/
+h1.logo_h1 a{
+	background:url(../images/pongo.png) no-repeat;
+	display:block;
+	font-size:1px;
+	height:66px;
+	left:30px;
+	position:absolute;
+	text-indent:-9999px;
+	top:19px;
+	width:215px;
+}
+
+/* Mid area elements
+***************************************************************************/
+#container_main{
+	margin-top:55px;
+	padding-bottom:100px;
+}
+.signupTop{
+	background:url(../images/ppTop.png) no-repeat;
+	height:165px;
+	margin-bottom:-165px;
+}
+.pp_splash, .pp_splash_b{
+	background:url(../images/bg_signup_splash.png) no-repeat;
+	width:981px;
+	height:544px;
+	position:relative;
+}
+.pp_splash_b{
+	background:url(../images/bg_signup_splash_b.png) no-repeat;
+}
+.pp_00{
+	background:url(../images/pp00btm.png) no-repeat bottom;
+	width:983px;
+	height:796px;
+}
+.pp_01{
+	background:url(../images/pp01btm.png) no-repeat bottom;
+}
+.pp_02{
+	background:url(../images/pp02btm.png) no-repeat bottom;
+}
+.pp_03{
+	background:url(../images/pp03btm.png) no-repeat bottom;
+}
+.pp_01, .pp02, .pp03{
+	width:983px;
+	height:1253px;
+}
+.starburstTrial{
+	background:url(../images/starburst_trialMember.png) no-repeat;
+	font-size:1px;
+	height:122px;
+	right:65px;
+	position:absolute;
+	text-indent:-9999px;
+	top:225px;
+	width:122px;
+}
+#container_main .inner{
+	padding:45px 100px 80px;
+}
+#container_main h2, #container_main p.introText{
+	text-align:center;
+	width:780px;
+	margin:0 auto;
+}
+#container_main p.introText a.linkLine{
+	background:url(../images/bg_underline_145.gif) no-repeat bottom;
+	color:#ff9a00;
+	padding-bottom:.5em;
+}
+#container_main h2{
+	color:#00aeb0;
+	font-size:30px;
+	padding-bottom:.25em;
+}
+#container_main p{
+	color:#6d6d6d;
+	font-size:17px;
+}
+
+/* Price Point Splash Page 
+***************************************************************************/
+#container_main .pp_desc_01, #container_main .pp_desc_03, .pp_splash_b#container_main .pp_desc_02{
+	text-align:center;
+	width:180px;
+	position:absolute;
+	top:180px;
+}
+.pp_desc_01{
+	left:160px;
+}
+.pp_desc_03{
+	right:160px;
+}
+.pp_splash_b#container_main .pp_desc_02{
+	left:400px;
+}
+.pp_desc_02{
+	text-align:center;
+	width:220px;
+	left:380px;
+	position:absolute;
+	top:160px;
+}
+#container_main .pp_desc_01 h3, #container_main .pp_desc_03 h3, .pp_splash_b#container_main .pp_desc_02 h3{
+	font-size:20px;
+	text-transform:uppercase;
+}
+#container_main .pp_desc_02 h3{
+	font-size:24px;
+	text-transform:uppercase;
+}
+#container_main .pp_desc_01 p.pp_cost, #container_main .pp_desc_03 p.pp_cost, .pp_splash_b#container_main .pp_desc_02 p.pp_cost{
+	color:#9fa513;
+	font-size:34px;
+	padding:20px;
+}
+#container_main .pp_desc_02 p.pp_cost{
+	color:#9fa513;
+	font-size:42px;
+	padding:20px;
+}
+#container_main .pp_desc_01 p.pp_description, #container_main .pp_desc_03 p.pp_description, .pp_splash_b#container_main .pp_desc_02 p.pp_description{
+	color:#6d6d6d;
+	font-size:14px;
+	line-height:1.25em;
+	padding-bottom:20px;
+}
+#container_main .pp_desc_02 p.pp_description{
+	color:#6d6d6d;
+	font-size:18px;
+	line-height:1.25em;
+	padding-bottom:20px;
+}
+
+#container_main .pp_desc_01 a.btnSignUp, #container_main .pp_desc_03 a.btnSignUp, .pp_desc_02 a.btnSignUp{
+	font-size:1px;
+	text-decoration:none;
+	text-indent:-9999px;
+}
+#container_main .pp_desc_01 a.btnSignUp, #container_main .pp_desc_03 a.btnSignUp, .pp_splash_b#container_main .pp_desc_02 a.btnSignUp{
+	background:url(../images/btn_signup_174x43.png) no-repeat;
+	display:block;
+	height:43px;
+	width:174px;
+}
+#container_main .pp_desc_02 a.btnSignUp{
+	background:url(../images/btn_signup_212x50.png) no-repeat;
+	display:block;
+	height:50px;
+	width:212px;
+}
+#container_main p.txtBottom{
+	font-size:12px;
+	margin-top:390px;
+	text-align:center;
+}
+#container_main p.txtBottom a{
+	color:#ff9a00;
+}
+
+
+/* Form Content
+***************************************************************************/
+#content_form h3{
+	color:#9fa513;
+	font-size:29px;
+}
+#step1, #step2, #step3{
+}
+#content_form{
+	padding-top:85px;
+	position:relative;
+}
+#content_form hr{
+	border: 0 #cbcbcb dotted;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+	width:640px;
+	margin:25px auto;
+	*margin:18px auto; /*WTF IE7 */
+}
+.pp_00 #content_form hr{
+	margin:2px auto;
+}
+#step2{
+}
+#step3{
+	position:relative;
+}
+#step1 h3, #step2 h3, #step3 h3{
+	/*height:66px;*/
+	height:48px;
+	margin-left:-30px;
+	padding:18px 0 0 100px;
+}
+#step1 h3{
+	background:url(../images/bubble_step1.png) no-repeat;
+}
+.pp_00 #step1 h3{
+	background-image:none;
+}
+#step2 h3{
+	background:url(../images/bubble_step2.png) no-repeat;
+}
+#step3 h3{
+	background:url(../images/bubble_step3.png) no-repeat;
+}
+#step3 p.payByPhoneLink{
+	background:url(../images/icon_phone_step3.gif) no-repeat;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	font-weight:700;
+	height:29px;
+	padding:8px 0 0 40px;
+	position:absolute;
+	top:18px;
+	left:280px;
+	text-align:left;
+	width:220px;
+	color:; /* color for waiting text */
+}
+
+/* Fieldset properties
+***************************************************************************/
+fieldset.signupInfo {
+	width:500px;
+	*width:520px; /* IE6 needs to have a wider box so items will wrap correctly */
+	margin:0 auto;
+}
+#step3 fieldset{
+	width:416px;
+	*width:436px; /* IE6 needs to have a wider box so items will wrap correctly */
+	margin-left:142px;
+	padding-bottom:20px;
+	*padding-bottom:12px;
+}
+
+fieldset.signupInfo label {
+    padding: 0 0 0 4px;
+}
+
+fieldset.signupInfo li {
+	float:left;
+}
+/* Fieldset li class names to give widths to form fields
+***************************************************************************/
+fieldset.signupInfo li.firstName{
+	width:200px;
+	margin-right:10px;
+}
+fieldset.signupInfo li.midInitial{
+	width:30px;
+	margin-right:20px;
+}
+fieldset.signupInfo li.midInitial input{
+		*width:10px; /* IE6 isn't recognizing the containing li width for this, so have to give input super small width */
+}
+fieldset.signupInfo li.regularLeft{
+	width:240px;
+	margin-right:20px;
+}
+fieldset.signupInfo li.regularRight{
+	width:240px;
+}
+fieldset.signupInfo li.checkboxAddress{
+	padding-top:10px;
+	width:500px;
+	*width:520px; /* IE6 needs to have a wider box so items will wrap correctly */
+}
+fieldset.signupInfo li.checkboxAddress label{
+	font-size:12px;
+	text-transform:none;
+}
+fieldset.signupInfo li.creditCard{
+	width:300px;
+	margin-right:20px;
+}
+fieldset.signupInfo li.creditCID{
+	position:relative;  /* relative so that help icon (.info) appears position:absolute to it */
+	width:60px;
+}
+fieldset.signupInfo li.creditCID .info{
+	left:70px;  /* help icon's (.info) width & position defined in styles.css */
+	top:20px;
+}
+fieldset.signupInfo li.creditCID input{
+	*width:20px; /* IE6 isn't recognizing the containing li width for this, so have to give input super small width */
+}
+fieldset.signupInfo li.expMonth, fieldset.signupInfo li.expYear{
+	width: 70px;
+	margin-right:20px;
+}
+fieldset.signupInfo li.ccTypes{
+	padding-top:18px;
+}
+fieldset.signupInfo li.pbpNameContainer{
+	width: 390px;
+	margin-right:20px;
+}
+fieldset.signupInfo li.pbpPhoneContainer{
+	width: 211px;
+	margin-right:20px;
+}
+fieldset.signupInfo li.pbpBtnContainer{
+	width:159px;
+	padding-top:16px;
+}
+fieldset.signupInfo li span {
+    background: url(../images/ui.png) no-repeat scroll left top;
+    margin: 3px 2px 9px 0;
+    padding: 0 0 0 8px;
+    display: block;
+}
+
+fieldset.signupInfo li em {
+    background: url(../images/ui.png) no-repeat scroll right top;
+    display: block;
+    line-height: 27px;
+    height: 27px;
+    margin: 0 -2px 0 0;
+    padding: 0 8px 0 0;
+    font-style: normal;
+}
+
+fieldset.signupInfo li em.select {
+    background: url(../images/ui.png) no-repeat scroll right -27px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #181818;
+    cursor: pointer;
+    /*width: 161px;*/
+}
+
+fieldset.signupInfo li span input {
+    background: none;
+    width: 184px;
+}
+
+/*fieldset.signupInfo ul.left {
+    float: left;
+    padding-right: 67px;
+}
+
+fieldset.signupInfo ul.right {
+    float: left;
+}*/
+#container_main p.confirm_txt{
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:10px;
+	width:280px;
+	text-align:left;
+	padding-bottom:1em;
+	position:relative;
+	line-height:1.25em;
+	margin-left:142px;
+}
+#container_main p.confirm_txt #fauxCheck{
+	margin-left:-40px;
+	display:inline-block;
+	height:16px;
+	padding-top:3px;
+	width:10px;
+}
+#container_main p.confirm_txt .hideCheckBox{
+	margin-left:-8px;
+}
+#container_main p.confirm_txt a:link, #container_main p.confirm_txt a:visited{
+	color:#ff9a00;
+	font-weight:700;
+}
+#container_main p.btnCreateAccount{
+	width:216px;
+	padding-right:20px;
+	position:absolute;
+	right:75px;
+	bottom:20px;
+	background:	url(../images/lock-whiteBG.png) no-repeat right center;
+}
+#container_main p.btnCreateAccount a{
+	font-size:1px;
+	text-indent:-9999px;
+	text-decoration:none;
+	display:block;
+	background:url(../images/btn_createAccount_216x46.png) no-repeat;
+	width:216px;
+	height:46px;
+}
+#container_main div.txtTrial{
+	border-bottom:1px dotted #cbcbcb;
+	border-top:1px dotted #cbcbcb;
+	margin:25px auto;
+	padding:2px 0px;
+	width:645px;
+}
+#container_main div.txtTrial p{
+	background-color:#f7f7e8;
+	color:#6d6d6d;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	padding:20px 72px;
+}
+#container_main p.submitBtnArea{
+	background:	url(../images/lock-whiteBG.png) no-repeat right center;
+	bottom:.5em;
+	padding-right:20px;
+	height:46px;
+	right:65px;
+	position:absolute;
+	width:216px;
+}
+
+#container_main p a.btnSignUp{
+	background:url(../images/btn_createAccount_216x46.png) no-repeat;
+	display:block;
+	font-size:1px;
+	height:46px;
+	text-decoration:none;
+	text-indent:-9999px;
+	width:216px;
+}
+
+
+
+/* Confirmation Pricepoint Box
+***************************************************************************/
+#confirm_pp_details{
+	color:#9fa513;
+	width:150px;
+	position:absolute;
+	text-align:center;
+	top:20px;
+	right:70px;
+}
+#confirm_pp_details h4{
+	font-size:13px;
+	text-transform:uppercase;
+	font-weight:normal;
+	letter-spacing:2px;
+	padding-bottom:1em;
+}
+#confirm_pp_details h4 span.confirm_pp_term{
+	color:#626262;
+	font-size:19px;
+}
+#confirm_pp_details p.confirm_pp_cost{
+	color:#9fa513;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:33px;
+	margin-bottom:10px;
+}
+#confirm_pp_details p.confirm_pp_description{
+	color:#969696;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	padding:5px 0px;
+}
+
+
+/* Pay By Phone Pop Up layer
+***************************************************************************/
+div.payByPhone_content fieldset.signupInfo{
+	width:390px;
+	margin:0px;
+}
+div.payByPhone_content h3{
+	background:url(../images/icon_phone_step3.gif) no-repeat;
+	color:#9FA513;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	height:29px;
+	padding:8px 0 15px 40px;
+	width:350px;
+}
+div.payByPhone_content p{
+	color:#6d6d6d;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	padding-bottom:15px;
+	width:390px;
+}
+div.payByPhone_content .inner{
+	padding:20px 35px;
+}
+div.payByPhone_content a.btn_requestCallback{
+	background:url(../images/btn_requestCallback_159x35.png) no-repeat;
+	display:block;
+	width:159px;
+	height:35px;
+	font-size:1px;
+	text-indent:-9999px;
+	text-decoration:none;
+}
+div.payByPhone_content p strong{
+	color:#00aeb0;
+	text-transform:uppercase;
+}
+div.payByPhone_content p.btnContinue{
+	padding-left:260px;
+	width:102px;
+}
+div.payByPhone_content p.btnContinue a{
+	background:url(../images/btn_continue_102x35.png) no-repeat;
+	display:block;
+	width:102px;
+	height:35px;
+	font-size:1px;
+	text-indent:-9999px;
+	text-decoration:none;
+}
+
+
+/* Live Support at the bottom of the contact form
+***************************************************************************/
+.liveSupportArea{
+	color:#6d6d6d;
+	font-size:12px;
+	left:260px;
+	position:absolute;
+	top:12px;
+	width:390px;
+}
+.liveSupportArea a{
+	background:url(../images/liveSupport_76x15.gif) no-repeat;
+	cursor:pointer;
+	display:inline-block;
+	font-size:1px;
+	height:15px;
+	margin:10px 5px 0 0;
+	padding:12px 0 0;
+	text-indent:-9999px;
+	text-decoration:none;
+	width:76px;
+}
+
+/* Pop Up Smaller Gradient layer
+***************************************************************************/
+#container_main #thanksScreen{
+	display:none;
+}
+#container_main .popUpGradient{
+	background:url(../images/bg_popUpGradient.png) no-repeat;
+	display:none; /* temporary until decide how this layer will be built */
+    font-family: Helvetica, Arial, sans-serif;
+	height:110px;
+	padding:35px 40px;
+	position:absolute;
+	top:20px;
+	left:150px;
+	width:491px;
+	z-index:5;
+}
+#container_main .popUpGradient h4{
+	color:#9fa513;
+	font-size:26px;
+	padding-bottom:.25em;
+}
+#container_main .popUpGradient p{
+	color:#9fa513;
+	font-size:12px;
+}
+#container_main .popUpGradient img.iconWait{
+	position:absolute;
+	right:40px;
+	top:40px;
+}
+#container_main .popUpGradient .btnContinue{
+	display:none; /* temporary until decide how this layer will be built */
+	position:absolute;
+	right:40px;
+	top:40px;
+	background:url(../images/btn_continue_120x32.png) no-repeat;
+	display:block;
+	width:159px;
+	height:35px;
+	font-size:1px;
+	text-indent:-9999px;
+	text-decoration:none;
+}
+
+
+/* Pop Up List of Features layer
+***************************************************************************/
+#container_main #popUpList, #container_main #popUpListTrial{
+	display:none; /* temporary until decide how this layer will be built */
+	position:absolute;
+	left:130px;
+	top:30px;
+	background:url(../images/bg_popUp_list.png) no-repeat;
+	width:735px;
+	height:468px;
+	font-size:1px;
+	text-indent:-9999px;
+	text-decoration:none;
+	z-index:5;
+}
+#container_main #popUpListTrial{
+	background:url(../images/bg_popUp_list_trial.png) no-repeat;
+}
+
+
+

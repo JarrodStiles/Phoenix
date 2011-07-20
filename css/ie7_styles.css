@@ -1,0 +1,18 @@
+
+
+.rater {
+    width: 174px;
+}
+
+.resourceOptionsContainer {
+    width: 301px;
+}
+
+.pollValue {
+    position: absolute;
+    margin-top: -7px;
+    z-index: 10;
+}
+.accordionExpand.collapse	{
+	background:url(../images/greenarrow.png) no-repeat 0 1px;
+}

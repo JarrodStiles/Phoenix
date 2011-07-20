@@ -1,0 +1,215 @@
+#sysWelcomeBack.wrapper {
+	background:none;
+}
+.welcomeBackLogin {
+}
+.welcomeBackBorder {
+	background: url(../images/bg_login.png) no-repeat 0 0;
+	width:980px;
+	height:573px;
+}
+.welcomeBackBorder h1.logo {
+	background:url(../images/pongo.png) no-repeat scroll 0 0 transparent;
+	height:66px;
+	width:215px;
+	text-indent:-9999em;
+	float:left;
+	margin:35px 0 0 21px;
+}
+.welcomeHeadlines {
+	float:left;
+	width:452px;
+	margin:45px 0 0 56px;
+	height:375px;
+}
+.welcomeHeadlines ul li {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:20px;
+	color:#969696;
+	padding:5px 0 10px 70px;
+}
+.welcomeHeadlines ul li.tweetHeadline {
+	background:url(../images/icon_tweet.png) no-repeat scroll 0 -3px transparent;
+}
+.welcomeHeadlines ul li.blogHeadline {
+	background:url(../images/icon_rssblog.png) no-repeat scroll 0 -3px transparent;
+}
+.welcomeHeadlines ul li.newsHeadline {
+	background:url(../images/icon_news.png) no-repeat scroll 0 -3px transparent;
+}
+.welcomeUser {
+	color:#8d9522;
+	font-size:36px;
+	line-height:33px;
+	margin:49px 41px 0 0;
+	float:right;
+}
+
+.notUser	{
+	color:#FF9A00;
+	float:left;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:12px;
+	line-height:22px;
+	float:right;
+}
+.notUser a {text-decoration:none;}
+.notUser a:hover {text-decoration:underline;}
+
+.interactionContainer {
+	float:right;
+	padding:49px 40px 0 0;
+}
+.loginBox {
+	padding-top:43px;
+	margin-bottom:6px;
+}
+.loginBox#large {
+	background:url(../images/bg_loginboxes.png) no-repeat scroll 0 0;
+	height:217px;
+	width:330px;
+}
+.loginBox#small {
+	background:url(../images/bg_loginboxes.png) no-repeat left bottom;
+	height:175px;
+	width:330px;
+}
+ul.loginSubmit {
+	margin-top:29px;
+
+}
+ul.loginSubmit li.forgotPassword {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#ff9a00;
+	float:left;
+	padding-left:88px;
+}
+ul.loginSubmit li.forgotPassword:hover {
+	text-decoration:underline;
+}
+ul.loginSubmit li.memberLogin {
+	background:url(../images/sprite_utilitynav.png) no-repeat scroll -302px -1px transparent;
+	display:block;
+	display:inline;
+	height:22px;
+	margin-left:15px;
+	width:55px;
+	float:right;
+	text-indent:-9999em;
+}
+.socializeWithUs {
+	background:url(../images/socialize_with_us.png) no-repeat scroll bottom left;
+	height:96px;
+	width:201px;
+	float:right;
+	margin:18px 106px 0 0;
+}
+.socializeWithUs ul li {
+	display:inline;
+}
+.socializeWithUs ul li a {
+	
+	float:left;
+	text-indent:-9999em;
+}
+p.noAccount {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:22px;
+	margin-left:42px;
+	padding:0;
+	background:url(../images/dtd_divider.png) no-repeat scroll 182px 0;
+}
+.socializeWithUs ul li a.Twitter {
+	background:url(../images/socialmedia_sprite.png) no-repeat scroll top left;
+	margin:0 13px 0 0;
+	width:37px;
+	height:36px;
+}
+.socializeWithUs ul li a.Facebook {
+	background:url(../images/socialmedia_sprite.png) no-repeat scroll -53px 0;
+	margin:0 13px 0 0;
+	width:37px;
+	height:36px;
+}
+.socializeWithUs ul li a.YouTube {
+	background:url(../images/socialmedia_sprite.png) no-repeat scroll -106px 0;
+	margin:0 13px 0 0;
+	width:37px;
+	height:36px;
+}
+.socializeWithUs ul li a.LinkedIn {
+	background:url(../images/socialmedia_sprite.png) no-repeat scroll top right;
+	width:37px;
+	height:36px;
+}
+.forgotPasswordProcess {
+	background:url(../images/bg_torn_paper.png) no-repeat 0 0;
+	height:437px;
+	width:484px;
+	float:left;
+	margin:13px 0 0 51px;
+}
+.forgotPasswordProcess ol {
+	list-style-type:decimal;
+	margin:66px 57px 0 72px;
+}
+.forgotPasswordProcess ol li.title {
+	font-size:20px;
+	color:#9fa513;
+	line-height:22px;
+}
+.forgotPasswordProcess ol p.desc {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	padding:9px 0 26px;
+	line-height:22px;
+}
+#resetPassword {
+	background:url(../images/buttons/btn_submit.png) no-repeat 0 0;
+	height:38px;
+	width:75px;
+	text-indent:-9999em;
+}
+#updatePassword_submit {
+	background:url(../images/buttons/btn_update.png) no-repeat 0 0;
+	height:31px;
+	width:81px;
+	text-indent:-9999em;
+}
+.forgotPasswordProcess span.chatNow {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	width:230px;
+	margin:39px auto;
+	display:block;
+	line-height:22px;
+}
+p.resetConfirmationTitle, p.emailConfirmationTitle {
+	color:#8d9522;
+	font-size:14px;
+	line-height:26px;
+	font-family:Helvetica, Arial, sans-serif;
+	margin:0 28px;
+	width:274px;
+	padding:0;
+}
+p.emailRecipient, p.resetConfirmationMsg {
+	font-size:12px;
+	line-height:26px;
+	font-family:Helvetica, Arial, sans-serif;
+	margin:0 28px;
+	width:274px;
+	padding:0;
+}
+p.myAccountBtn {
+	float:right;
+	margin:34px 23px 0 0;
+}
+body#welcomeback .footer {
+	background: none;
+	padding:0;
+}

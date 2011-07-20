@@ -1,0 +1,33 @@
+/*.fbConnectWidgetTopmost {
+	border-color:#ffffff;!important
+	border-right:none;!important
+	border-style:none;!important
+	border-width:0;!important
+	overflow:hidden;
+	padding:0;
+	position:relative;
+}
+div.fbConnectWidgetHeaderTitle {
+	border-width:0 0 1px;
+}
+.fbConnectWidgetHeaderTitle {
+	border:1px solid #C6CEDD;
+	color:#1C2A47;
+	cursor:default;
+	padding-bottom:7px;
+	padding-top:8px;
+}
+.phm {
+	padding-left:10px;
+	padding-right:10px;
+}
+.lightblue_box {
+	background-color:#EDEFF4;
+	border:1px solid #D8DFEA;
+}*/
+
+.fan_box .full_widget {
+background:none repeat scroll 0 0 white;
+border:0px solid #94A3C4;!important
+border:none;!important
+}

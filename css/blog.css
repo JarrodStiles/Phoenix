@@ -1,0 +1,143 @@
+#blogHdr	{
+	height:30px;
+}
+
+#blogHdr IMG	{
+	position: absolute;
+	z-index:100;
+	margin:-17px 0 0 0;
+	padding:0;
+}
+
+.blogWidth	{
+	width: 314px;
+	padding-right:205px !important;
+}
+
+.blogVideoWidth {
+	padding-right:86px !important;
+	width:376px;
+}
+
+.blogListing	{
+	position:absolute;
+	z-index: 100;
+	top: 56px;
+	left: 547px;
+}
+
+.blogListing dl	{
+	border: none !important;
+	padding:0 !important;
+
+float:left !important;
+
+}
+
+.blogListing dl.calendar {
+    /*
+float: right;
+*/
+    width: 80px;
+    height: 85px;
+    background: url(../images/bg_calendar.png) top left no-repeat;
+    margin: 7px 32px 0 0;
+}
+
+.blogListing dl.calendar dt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 29px;
+    font-weight: normal;
+    color: #aeaeae;
+    padding: 23px 0 0 0;
+    text-align: center;
+}
+
+dt.publishDetails {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #aeaeae;
+    padding: 0;
+    float:right;
+	margin:0;
+	line-height:14px;
+}
+
+.blogListing dl.calendar dd.bl {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    color: #aeaeae;
+    padding: 12px 0 0 12px;
+	float:left !important;
+	line-height: 9px;
+}
+
+.blogPadding	{
+	padding-right:241px;
+	
+}
+
+.publishedBy	{
+	display:inline-block;
+	padding:7px 2px 2px;
+	color:#2DADAD;
+	text-decoration:none;	
+}
+
+dt.publishDetails a 	{
+	text-decoration: none;
+}
+
+.publishedBy a, .publishedBy a:visited 	{
+	padding:7px 2px 2px;
+	color:#2DADAD !important;	
+	text-decoration: none;
+}
+
+.publishedBy a:hover 	{
+	color:#2DADAD !important;	
+	text-decoration: none;
+}
+
+#blogPost	{
+	float:left;
+	margin-top:15px;
+}
+
+#blogPost dl.blogPostHeading	{
+	width:607px;
+}
+
+#blogPost dl.blogPostHeading dt.authorImage	{
+	background:url("../images/articlethumbshdw.png") no-repeat scroll left top transparent;
+	clear:left;
+	float:left;
+	
+	width:100px;
+	padding-right:20px;
+}
+#blogPost dl.blogPostHeading dd.blogTitle	{
+color:#A5AB21;
+float:left;
+font-family:Helvetica,Arial,sans-serif;
+font-size:28px;
+font-weight:normal;
+line-height:33px;
+width:406px;
+padding-top:2px;
+}
+
+#blogPost dl.blogPostHeading dd.blogPublish	{
+color:#969696;
+float:left;
+font-family:Helvetica,Arial,sans-serif;
+font-size:12px;
+font-weight:normal;
+line-height:12px;
+width:406px;
+}
+
+
+
